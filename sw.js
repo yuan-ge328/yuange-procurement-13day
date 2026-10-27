@@ -1,4 +1,4 @@
-const CACHE='yuange-procurement-v1.2.1-20261027';
+const CACHE='yuange-procurement-v1.2.2-20261027';
 const FILES=['./','./index.html','./days.js','./questions.js','./mnemonics.js','./explanations.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('yuange-procurement-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
