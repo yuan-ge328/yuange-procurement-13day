@@ -1,9 +1,18 @@
-源格採購基礎衝刺教室 V1.2.2｜選擇題解析新增100題
+源格 YuanGe｜指定完整字標版 網站品牌更新包
 
-1. 本次新增《全部題庫.pdf》「政府採購法之總則、招標及決標」選擇題第1至100題，連同既有5題，共105題具有逐項解析。
-2. 每題保留原始題庫答案，新增核心解題理由、四個選項差異、原始PDF頁碼及法規／教材線索；數字題增加帶條件的記憶口訣。
-3. 註記為「來源對照稿」者，係依題庫及115年版課程資料整理，尚未逐條進行法律版本與函釋核實；不是主管機關官方解析。已對照主要法律條文者則明確標示。
-4. 在「練習」新增「法規選擇題解析100題」捷徑，每次10題，優先尚未做過的題目；仍保留全部3,587題與既有每日任務。
-5. 所有網站檔應置於 GitHub 儲存庫根目錄，共9個：index.html、questions.js、days.js、mnemonics.js、explanations.js、sw.js、manifest.webmanifest、icon-192.png、icon-512.png。
-6. 既有學習記錄之 localStorage 鍵未更動；更新前請先在同事 iPhone 主畫面App匯出JSON備份。
-7. 確認版本顯示V1.2.2後，測試解析、進度保存及飛航模式離線功能。勿刪除主畫面App。
+本更新包以 V1.2.2 為基底；只替換首頁標誌、App icon、favicon 和離線快取，未改動原有題庫或學習進度鍵。
+
+部署前請同事先從「資源」匯出 JSON 備份。
+
+GitHub 更新：
+1. 解壓縮此包。
+2. 打開 https://github.com/yuan-ge328/yuange-procurement-13day ，切換到 main 分支。
+3. Code > Add file > Upload files，選取根目錄的 8 個網站檔案（不要上傳 ZIP / 本說明）。
+4. Commit changes；GitHub Pages 設定不用更動。
+5. 開啟 https://yuan-ge328.github.io/yuange-procurement-13day/ 驗證首頁完整字標、刷題批改及進度保存。
+
+檔案：index.html、logo-full.png、logo-mark.png、icon-192.png、icon-512.png、favicon.png、manifest.webmanifest、sw.js。
+
+若網站未來已更新超過 V1.2.2，請勿直接以此包覆蓋 index.html 或 sw.js，以免回退新功能；應改用新版原始碼合併品牌修改。
+
+iPhone 已安裝捷徑不一定同步更新圖示；勿在未備份前刪除 App。
