@@ -1,18 +1,9 @@
-源格 YuanGe｜指定完整字標版 網站品牌更新包
+源格採購基礎衝刺教室 V1.2.3：逐題速讀解析版
 
-本更新包以 V1.2.2 為基底；只替換首頁標誌、App icon、favicon 和離線快取，未改動原有題庫或學習進度鍵。
+這次新增：每題答完出現 30 秒速讀提示；405 題錯誤是非題有相近正確題對照；原有 105 題逐項解析摺疊顯示；保留 3587 題與源格完整字標。
 
-部署前請同事先從「資源」匯出 JSON 備份。
+重要：速讀提示依題庫文字及答案自動編排，不是已逐題查核的法規結論；相近是非對照並非官方逐項解析，應回到教材核對條件。
 
-GitHub 更新：
-1. 解壓縮此包。
-2. 打開 https://github.com/yuan-ge328/yuange-procurement-13day ，切換到 main 分支。
-3. Code > Add file > Upload files，選取根目錄的 8 個網站檔案（不要上傳 ZIP / 本說明）。
-4. Commit changes；GitHub Pages 設定不用更動。
-5. 開啟 https://yuan-ge328.github.io/yuange-procurement-13day/ 驗證首頁完整字標、刷題批改及進度保存。
+GitHub 更新：備份 iPhone 學習 JSON，解壓縮本包，將除「更新說明.txt」以外檔案上傳 repo 根目錄（同名覆蓋），Commit changes，重新開啟網站確認 V1.2.3。
 
-檔案：index.html、logo-full.png、logo-mark.png、icon-192.png、icon-512.png、favicon.png、manifest.webmanifest、sw.js。
-
-若網站未來已更新超過 V1.2.2，請勿直接以此包覆蓋 index.html 或 sw.js，以免回退新功能；應改用新版原始碼合併品牌修改。
-
-iPhone 已安裝捷徑不一定同步更新圖示；勿在未備份前刪除 App。
+不修改 localStorage 的進度鍵，既有紀錄應可沿用，但仍需先備份並實際在 iPhone 驗收。
